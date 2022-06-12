@@ -7,4 +7,3 @@ let deleteUnwantedNames = function (arr) {
   }
   return arr
 }
-console.log(deleteUnwantedNames(['Саша','Ольга', 'Никита', 'Анастасия', 'Дима', 'Саныч']));
