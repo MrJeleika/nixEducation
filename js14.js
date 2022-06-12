@@ -1,6 +1,4 @@
 let remove = function(str, n){
-  
-
   for(let i = 0; i < str.length; i++){
     if(str[i] == "!") {
       str = str.split('')
@@ -10,6 +8,4 @@ let remove = function(str, n){
     }
     if(n == 0) return str
   }
-  
 }
-console.log(remove("Hi!!", 1));
